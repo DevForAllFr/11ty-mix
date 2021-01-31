@@ -1,0 +1,11 @@
+---
+title: Home
+layout: 'main.njk'
+---
+<div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100" x-data="{OpenSub: false}">
+    <div class="rounded shadow-lg p-8 bg-white cursor-pointer"
+    @click="OpenSub = !OpenSub">
+        <h1 class="text-xl font-semibold">Tailwindcss works !</h1>
+        <div x-show="OpenSub">AlpineJS works too !</div>
+    </div>
+</div>
